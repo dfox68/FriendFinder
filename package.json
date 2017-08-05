@@ -19,7 +19,6 @@
   "homepage": "https://github.com/dfox68/FriendFinder#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
-    "express": "^4.15.3",
-    "path": "^0.12.7"
+    "express": "^4.15.3"
   }
 }

@@ -10,7 +10,8 @@ var app = express();
 var port = 3000;
 
 // Initiate the listener:
-app.listen(port);
+app.listen(port, function() {console.log('listening on port: ' + port);
+});
 
 app.use(bodyParser.urlencoded({extended: false }));
 
